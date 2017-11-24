@@ -54,4 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   get '/weather/now', to: 'weather#now'
+  get '/weather/all', to: 'weather#all'
 end
